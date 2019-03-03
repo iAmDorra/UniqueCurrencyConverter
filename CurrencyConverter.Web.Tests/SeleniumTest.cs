@@ -32,7 +32,7 @@ namespace CurrencyConverter.Web.Tests
 
                 var convertedAmount = driver.FindElement(By.Id("ConvertedAmount"));
                 string convertedAmountValue = GetValue(convertedAmount);
-                Check.That(convertedAmountValue).IsEqualTo("114,00 USD");
+                Check.That(convertedAmountValue).IsEqualTo("200 USD");
             }
         }
 

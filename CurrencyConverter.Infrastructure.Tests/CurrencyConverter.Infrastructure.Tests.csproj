@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\CurrencyConverter.Infrastructure\CurrencyConverter.db" Link="CurrencyConverter.db">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
     <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
