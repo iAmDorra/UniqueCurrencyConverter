@@ -11,7 +11,7 @@
 
         public Amount Convert(Amount amount, Currency targetCurrency)
         {
-            Rate conversionRate = _rates.GetRateOf(targetCurrency);
+            Rate conversionRate = _rates.GetRateOf(targetCurrency).Result;
             return amount.Convert(targetCurrency, conversionRate);
         }
     }

@@ -1,7 +1,9 @@
-﻿namespace CurrencyConverter.Domain
+﻿using System.Threading.Tasks;
+
+namespace CurrencyConverter.Domain
 {
     public interface IRates
     {
-        Rate GetRateOf(Currency currency);
+        Task<Rate> GetRateOf(Currency currency);
     }
 }
