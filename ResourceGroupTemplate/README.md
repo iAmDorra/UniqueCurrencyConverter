@@ -1,0 +1,1 @@
+Exported template of the resource group TechClubAzure-Dorra
